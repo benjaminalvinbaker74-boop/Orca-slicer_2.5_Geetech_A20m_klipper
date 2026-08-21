@@ -1,0 +1,28 @@
+{
+	"default_filament_profile": [
+		"Generic PLA @Geeetech"
+	],
+	"enable_filament_ramming": "0",
+	"extra_loading_move": "-6",
+	"from": "User",
+	"gcode_flavor": "klipper",
+	"inherits": "Geeetech A20 M 0.4 nozzle",
+	"layer_change_gcode": ";------------------------------------\n;layer No：[layer_num] ———>Print Height：[layer_z] mm\n;------------------------------------",
+	"machine_end_gcode": "PRINT_END",
+	"machine_pause_gcode": "PAUSE",
+	"machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]",
+	"name": "Geeetech A20 M 0.4 nozzle - Klipper",
+	"nozzle_height": "4",
+	"printer_extruder_id": [
+		"1"
+	],
+	"printer_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"printer_settings_id": "Geeetech A20 M 0.4 nozzle - Klipper",
+	"retract_length_toolchange": [
+		"6"
+	],
+	"thumbnails": "48x48/PNG, 300x300/PNG",
+	"version": "2.1.1.0"
+}

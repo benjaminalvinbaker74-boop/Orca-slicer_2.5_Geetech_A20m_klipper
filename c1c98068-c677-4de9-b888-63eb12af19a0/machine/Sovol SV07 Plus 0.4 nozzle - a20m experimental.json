@@ -1,0 +1,32 @@
+{
+	"deretraction_speed": [
+		"30"
+	],
+	"from": "User",
+	"inherits": "Sovol SV07 Plus 0.4 nozzle",
+	"machine_start_gcode": ";M190 S[bed_temperature_initial_layer_single] ; Setting bed temprature\n;M109 S[nozzle_temperature_initial_layer] ; Setting hot-end temprature\nSTART_PRINT ; Running macro from klipper\n",
+	"name": "Sovol SV07 Plus 0.4 nozzle - a20m experimental",
+	"print_host": "192.168.0.50",
+	"printable_area": [
+		"0x0",
+		"255x0",
+		"255x250",
+		"0x250"
+	],
+	"printable_height": "200",
+	"printer_agent": "moonraker",
+	"printer_extruder_id": [
+		"1"
+	],
+	"printer_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"printer_settings_id": "Sovol SV07 Plus 0.4 nozzle - a20m experimental",
+	"retraction_length": [
+		"2.8"
+	],
+	"retraction_speed": [
+		"35"
+	],
+	"version": "2.4.0.1"
+}

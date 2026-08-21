@@ -1,0 +1,18 @@
+{
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_minimal_purge_on_wipe_tower": [
+		"110"
+	],
+	"filament_settings_id": [
+		"Generic PLA @Geeetech - Dwukolor"
+	],
+	"filament_unloading_speed_start": [
+		"50"
+	],
+	"from": "User",
+	"inherits": "Generic PLA @System",
+	"name": "Generic PLA @Geeetech - Dwukolor",
+	"version": "2.1.1.0"
+}

@@ -1,0 +1,5 @@
+cache/
+log/
+*.tmp
+backup-orca-profiles.sh
+*.sh

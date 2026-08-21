@@ -1,0 +1,111 @@
+{
+	"additional_cooling_fan_speed": [
+		"0"
+	],
+	"compatible_printers": [
+		"Sovol SV01 Pro 0.4 nozzle",
+		"Sovol SV02 0.4 nozzle",
+		"Sovol SV05 0.4 nozzle",
+		"Sovol SV06 0.4 nozzle",
+		"Sovol SV06 Plus 0.4 nozzle",
+		"Sovol SV07 0.4 nozzle",
+		"Sovol SV07 Plus 0.4 nozzle"
+	],
+	"complete_print_exhaust_fan_speed": [
+		"80"
+	],
+	"cool_plate_temp": [
+		"60"
+	],
+	"cool_plate_temp_initial_layer": [
+		"55"
+	],
+	"default_filament_colour": [
+		"#B3B3B3"
+	],
+	"during_print_exhaust_fan_speed": [
+		"60"
+	],
+	"enable_pressure_advance": [
+		"1"
+	],
+	"eng_plate_temp": [
+		"60"
+	],
+	"eng_plate_temp_initial_layer": [
+		"55"
+	],
+	"fan_cooling_layer_time": [
+		"7"
+	],
+	"fan_min_speed": [
+		"40"
+	],
+	"filament_end_gcode": [
+		"; filament end gcode \n"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.9312"
+	],
+	"filament_max_volumetric_speed": [
+		"20"
+	],
+	"filament_settings_id": [
+		"CV 1.55 SV07 (PLA Plus) (Grey) (Jayo)"
+	],
+	"filament_start_gcode": [
+		"; filament start gcode\n"
+	],
+	"filament_vendor": [
+		"Jayo"
+	],
+	"from": "User",
+	"hot_plate_temp": [
+		"60"
+	],
+	"hot_plate_temp_initial_layer": [
+		"60"
+	],
+	"inherits": "Generic PLA @System",
+	"name": "CV 1.55 SV07 (PLA Plus) (Grey) (Jayo)",
+	"nozzle_temperature": [
+		"215"
+	],
+	"nozzle_temperature_initial_layer": [
+		"215"
+	],
+	"nozzle_temperature_range_high": [
+		"215"
+	],
+	"nozzle_temperature_range_low": [
+		"205"
+	],
+	"overhang_fan_speed": [
+		"95"
+	],
+	"overhang_fan_threshold": [
+		"25%"
+	],
+	"reduce_fan_stop_start_freq": [
+		"0"
+	],
+	"required_nozzle_HRC": [
+		"0"
+	],
+	"slow_down_layer_time": [
+		"2"
+	],
+	"support_material_interface_fan_speed": [
+		"95"
+	],
+	"temperature_vitrification": [
+		"100"
+	],
+	"textured_plate_temp": [
+		"60"
+	],
+	"version": "1.0.0.0"
+}
