@@ -1,0 +1,45 @@
+{
+	"compatible_printers": [
+		"SV07 Plus 0.6 nozzle 28-6-26"
+	],
+	"fan_max_speed": [
+		"30"
+	],
+	"fan_min_speed": [
+		"0"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"esun Generic ABS @System"
+	],
+	"from": "User",
+	"hot_plate_temp": [
+		"95"
+	],
+	"hot_plate_temp_initial_layer": [
+		"85"
+	],
+	"inherits": "Generic ABS @System",
+	"name": "esun Generic ABS @System",
+	"nozzle_temperature": [
+		"250"
+	],
+	"nozzle_temperature_initial_layer": [
+		"250"
+	],
+	"overhang_fan_speed": [
+		"60"
+	],
+	"overhang_fan_threshold": [
+		"50%"
+	],
+	"reduce_fan_stop_start_freq": [
+		"0"
+	],
+	"slow_down_for_layer_cooling": [
+		"0"
+	],
+	"version": "2.4.0.3"
+}

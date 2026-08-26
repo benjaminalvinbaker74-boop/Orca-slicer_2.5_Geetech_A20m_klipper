@@ -41,15 +41,7 @@
 	"close_fan_the_first_x_layers": [
 		"1"
 	],
-	"compatible_printers": [
-		"Sovol SV01 Pro 0.4 nozzle",
-		"Sovol SV02 0.4 nozzle",
-		"Sovol SV05 0.4 nozzle",
-		"Sovol SV06 0.4 nozzle",
-		"Sovol SV06 Plus 0.4 nozzle",
-		"Sovol SV07 0.4 nozzle",
-		"Sovol SV07 Plus 0.4 nozzle"
-	],
+	"compatible_printers": [],
 	"compatible_printers_condition": "",
 	"compatible_prints": [],
 	"compatible_prints_condition": "",
@@ -57,13 +49,13 @@
 		"80"
 	],
 	"cool_plate_temp": [
-		"60"
+		"35"
 	],
 	"cool_plate_temp_initial_layer": [
-		"55"
+		"35"
 	],
 	"default_filament_colour": [
-		"#B3B3B3"
+		""
 	],
 	"dont_slow_down_outer_wall": [
 		"0"
@@ -78,19 +70,19 @@
 		"1"
 	],
 	"eng_plate_temp": [
-		"60"
+		"45"
 	],
 	"eng_plate_temp_initial_layer": [
-		"55"
+		"45"
 	],
 	"fan_cooling_layer_time": [
-		"7"
+		"15"
 	],
 	"fan_max_speed": [
-		"100"
+		"30"
 	],
 	"fan_min_speed": [
-		"40"
+		"0"
 	],
 	"filament_adaptive_volumetric_speed": [
 		"0"
@@ -117,10 +109,10 @@
 		"4"
 	],
 	"filament_cost": [
-		"20"
+		"0"
 	],
 	"filament_density": [
-		"1.24"
+		"0"
 	],
 	"filament_deretraction_speed": [
 		"nil"
@@ -129,13 +121,13 @@
 		"1.75"
 	],
 	"filament_end_gcode": [
-		"; filament end gcode \n"
+		" "
 	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"0.9312"
+		"1"
 	],
 	"filament_flush_temp": [
 		"0"
@@ -168,7 +160,7 @@
 		"nil"
 	],
 	"filament_max_volumetric_speed": [
-		"20"
+		"28"
 	],
 	"filament_minimal_purge_on_wipe_tower": [
 		"15"
@@ -222,7 +214,7 @@
 		"nil"
 	],
 	"filament_settings_id": [
-		"CV 1.55 SV07 (PLA Plus) (Grey) (Jayo)"
+		"esun Generic ABS"
 	],
 	"filament_shrink": [
 		"100%"
@@ -240,7 +232,7 @@
 		"0"
 	],
 	"filament_start_gcode": [
-		"; filament start gcode\n"
+		" "
 	],
 	"filament_toolchange_delay": [
 		"0"
@@ -261,7 +253,7 @@
 		"4"
 	],
 	"filament_type": [
-		"PLA"
+		"ABS"
 	],
 	"filament_unloading_speed": [
 		"90"
@@ -270,7 +262,7 @@
 		"100"
 	],
 	"filament_vendor": [
-		"Jayo"
+		"esun"
 	],
 	"filament_wipe": [
 		"nil"
@@ -292,17 +284,17 @@
 		"0"
 	],
 	"hot_plate_temp": [
-		"60"
+		"95"
 	],
 	"hot_plate_temp_initial_layer": [
-		"60"
+		"85"
 	],
 	"idle_temperature": [
 		"0"
 	],
-	"inherits": "Generic PLA @System",
+	"inherits": "",
 	"internal_bridge_fan_speed": [
-		"-1"
+		"100"
 	],
 	"ironing_fan_speed": [
 		"-1"
@@ -310,21 +302,21 @@
 	"long_retractions_when_ec": [
 		"0"
 	],
-	"name": "CV 1.55 SV07 (PLA Plus) (Grey) (Jayo)",
+	"name": "esun Generic ABS",
 	"nozzle_temperature": [
-		"215"
+		"250"
 	],
 	"nozzle_temperature_initial_layer": [
-		"215"
+		"250"
 	],
 	"nozzle_temperature_range_high": [
-		"215"
+		"260"
 	],
 	"nozzle_temperature_range_low": [
-		"205"
+		"220"
 	],
 	"overhang_fan_speed": [
-		"95"
+		"80"
 	],
 	"overhang_fan_threshold": [
 		"25%"
@@ -333,7 +325,7 @@
 		"0.4157"
 	],
 	"pressure_advance": [
-		"0.02"
+		"0.05"
 	],
 	"reduce_fan_stop_start_freq": [
 		"0"
@@ -345,22 +337,22 @@
 		"10"
 	],
 	"slow_down_for_layer_cooling": [
-		"1"
+		"0"
 	],
 	"slow_down_layer_time": [
-		"2"
+		"5"
 	],
 	"slow_down_min_speed": [
 		"10"
 	],
 	"supertack_plate_temp": [
-		"45"
+		"35"
 	],
 	"supertack_plate_temp_initial_layer": [
-		"45"
+		"35"
 	],
 	"support_material_interface_fan_speed": [
-		"95"
+		"-1"
 	],
 	"temperature_vitrification": [
 		"100"
@@ -372,12 +364,12 @@
 		"40"
 	],
 	"textured_plate_temp": [
-		"60"
+		"45"
 	],
 	"textured_plate_temp_initial_layer": [
-		"55"
+		"45"
 	],
-	"version": "1.0.0.0",
+	"version": "2.4.0.3",
 	"volumetric_speed_coefficients": [
 		""
 	]

@@ -24,7 +24,7 @@
 		"0"
 	],
 	"additional_cooling_fan_speed": [
-		"0"
+		"100"
 	],
 	"additional_fan_full_speed_layer": [
 		"0"
@@ -41,56 +41,48 @@
 	"close_fan_the_first_x_layers": [
 		"1"
 	],
-	"compatible_printers": [
-		"Sovol SV01 Pro 0.4 nozzle",
-		"Sovol SV02 0.4 nozzle",
-		"Sovol SV05 0.4 nozzle",
-		"Sovol SV06 0.4 nozzle",
-		"Sovol SV06 Plus 0.4 nozzle",
-		"Sovol SV07 0.4 nozzle",
-		"Sovol SV07 Plus 0.4 nozzle"
-	],
+	"compatible_printers": [],
 	"compatible_printers_condition": "",
 	"compatible_prints": [],
 	"compatible_prints_condition": "",
 	"complete_print_exhaust_fan_speed": [
-		"80"
+		"70"
 	],
 	"cool_plate_temp": [
-		"60"
+		"30"
 	],
 	"cool_plate_temp_initial_layer": [
-		"55"
+		"30"
 	],
 	"default_filament_colour": [
-		"#B3B3B3"
+		"#000000"
 	],
 	"dont_slow_down_outer_wall": [
 		"0"
 	],
 	"during_print_exhaust_fan_speed": [
-		"60"
+		"70"
 	],
 	"enable_overhang_bridge_fan": [
 		"1"
 	],
 	"enable_pressure_advance": [
-		"1"
+		"0"
 	],
 	"eng_plate_temp": [
-		"60"
+		"30"
 	],
 	"eng_plate_temp_initial_layer": [
-		"55"
+		"30"
 	],
 	"fan_cooling_layer_time": [
-		"7"
+		"100"
 	],
 	"fan_max_speed": [
 		"100"
 	],
 	"fan_min_speed": [
-		"40"
+		"100"
 	],
 	"filament_adaptive_volumetric_speed": [
 		"0"
@@ -117,7 +109,7 @@
 		"4"
 	],
 	"filament_cost": [
-		"20"
+		"50"
 	],
 	"filament_density": [
 		"1.24"
@@ -129,13 +121,13 @@
 		"1.75"
 	],
 	"filament_end_gcode": [
-		"; filament end gcode \n"
+		"; filament end gcode\n"
 	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"0.9312"
+		"0.98"
 	],
 	"filament_flush_temp": [
 		"0"
@@ -168,7 +160,7 @@
 		"nil"
 	],
 	"filament_max_volumetric_speed": [
-		"20"
+		"2.9"
 	],
 	"filament_minimal_purge_on_wipe_tower": [
 		"15"
@@ -192,7 +184,7 @@
 		"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
 	],
 	"filament_retract_before_wipe": [
-		"nil"
+		"55%"
 	],
 	"filament_retract_lift_above": [
 		"nil"
@@ -213,7 +205,7 @@
 		"nil"
 	],
 	"filament_retraction_length": [
-		"nil"
+		"0.4"
 	],
 	"filament_retraction_minimum_travel": [
 		"nil"
@@ -222,7 +214,7 @@
 		"nil"
 	],
 	"filament_settings_id": [
-		"CV 1.55 SV07 (PLA Plus) (Grey) (Jayo)"
+		"TPU85A Ninjaflex - OAB 23.06.13"
 	],
 	"filament_shrink": [
 		"100%"
@@ -240,7 +232,7 @@
 		"0"
 	],
 	"filament_start_gcode": [
-		"; filament start gcode\n"
+		"; chamber fan speed 50% for TPU. Increase to S255 if you run your \n; printer in a hot environment.\nM106 P3 S127"
 	],
 	"filament_toolchange_delay": [
 		"0"
@@ -261,7 +253,7 @@
 		"4"
 	],
 	"filament_type": [
-		"PLA"
+		"TPU"
 	],
 	"filament_unloading_speed": [
 		"90"
@@ -270,7 +262,7 @@
 		"100"
 	],
 	"filament_vendor": [
-		"Jayo"
+		"NinjaTek"
 	],
 	"filament_wipe": [
 		"nil"
@@ -282,7 +274,7 @@
 		"nil"
 	],
 	"filament_z_hop_types": [
-		"nil"
+		"Slope Lift"
 	],
 	"first_x_layer_fan_speed": [
 		"0"
@@ -292,15 +284,15 @@
 		"0"
 	],
 	"hot_plate_temp": [
-		"60"
+		"30"
 	],
 	"hot_plate_temp_initial_layer": [
-		"60"
+		"30"
 	],
 	"idle_temperature": [
 		"0"
 	],
-	"inherits": "Generic PLA @System",
+	"inherits": "Generic TPU @System",
 	"internal_bridge_fan_speed": [
 		"-1"
 	],
@@ -310,24 +302,24 @@
 	"long_retractions_when_ec": [
 		"0"
 	],
-	"name": "CV 1.55 SV07 (PLA Plus) (Grey) (Jayo)",
+	"name": "TPU85A Ninjaflex - OAB 23.06.13",
 	"nozzle_temperature": [
-		"215"
+		"250"
 	],
 	"nozzle_temperature_initial_layer": [
-		"215"
+		"245"
 	],
 	"nozzle_temperature_range_high": [
-		"215"
+		"250"
 	],
 	"nozzle_temperature_range_low": [
-		"205"
+		"225"
 	],
 	"overhang_fan_speed": [
-		"95"
+		"100"
 	],
 	"overhang_fan_threshold": [
-		"25%"
+		"95%"
 	],
 	"pellet_flow_coefficient": [
 		"0.4157"
@@ -336,10 +328,10 @@
 		"0.02"
 	],
 	"reduce_fan_stop_start_freq": [
-		"0"
+		"1"
 	],
 	"required_nozzle_HRC": [
-		"0"
+		"3"
 	],
 	"retraction_distances_when_ec": [
 		"10"
@@ -354,16 +346,16 @@
 		"10"
 	],
 	"supertack_plate_temp": [
-		"45"
+		"0"
 	],
 	"supertack_plate_temp_initial_layer": [
-		"45"
+		"0"
 	],
 	"support_material_interface_fan_speed": [
-		"95"
+		"-1"
 	],
 	"temperature_vitrification": [
-		"100"
+		"60"
 	],
 	"textured_cool_plate_temp": [
 		"40"
@@ -372,12 +364,12 @@
 		"40"
 	],
 	"textured_plate_temp": [
-		"60"
+		"30"
 	],
 	"textured_plate_temp_initial_layer": [
-		"55"
+		"30"
 	],
-	"version": "1.0.0.0",
+	"version": "1.6.0.3",
 	"volumetric_speed_coefficients": [
 		""
 	]
