@@ -280,7 +280,7 @@
 	"use_relative_e_distances": "1",
 	"version": "2.2.0.0",
 	"wipe": [
-		"0"
+		"1"
 	],
 	"wipe_distance": [
 		"1"
