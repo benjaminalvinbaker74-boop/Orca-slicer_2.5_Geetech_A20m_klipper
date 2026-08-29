@@ -1,15 +1,33 @@
 {
+	"fan_max_speed": [
+		"50"
+	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"0.965"
+		"0.96"
 	],
 	"filament_settings_id": [
 		"esun Generic ABS reduced flow"
 	],
 	"from": "User",
 	"inherits": "esun Generic ABS",
+	"internal_bridge_fan_speed": [
+		"90"
+	],
 	"name": "esun Generic ABS reduced flow",
+	"overhang_fan_speed": [
+		"95"
+	],
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"slow_down_layer_time": [
+		"2"
+	],
+	"slow_down_min_speed": [
+		"5"
+	],
 	"version": "2.4.0.3"
 }
