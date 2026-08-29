@@ -80,15 +80,15 @@
 	"machine_end_gcode": "END_PRINT MAX_LAYER_Z=[max_layer_z] PRINTABLE_HEIGHT=[max_print_height] Z_OFFSET=[z_offset] BED_MAX_Y=[print_bed_max]",
 	"machine_load_filament_time": "0",
 	"machine_max_acceleration_e": [
-		"5000",
+		"10000",
 		"5000"
 	],
 	"machine_max_acceleration_extruding": [
-		"5000",
+		"10000",
 		"1250"
 	],
 	"machine_max_acceleration_retracting": [
-		"5000",
+		"10000",
 		"1250"
 	],
 	"machine_max_acceleration_travel": [
@@ -222,7 +222,7 @@
 	"purge_in_prime_tower": "1",
 	"resonance_avoidance": "0",
 	"retract_before_wipe": [
-		"0%"
+		"33%"
 	],
 	"retract_length_toolchange": [
 		"10"
@@ -280,7 +280,7 @@
 	"use_relative_e_distances": "1",
 	"version": "2.2.0.0",
 	"wipe": [
-		"0"
+		"1"
 	],
 	"wipe_distance": [
 		"1"
@@ -290,10 +290,10 @@
 	"wrapping_detection_layers": "20",
 	"wrapping_exclude_area": [],
 	"z_hop": [
-		"0"
+		"0.24"
 	],
 	"z_hop_types": [
-		"Slope Lift"
+		"Spiral Lift"
 	],
 	"z_offset": "0"
 }

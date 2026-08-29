@@ -1,7 +1,7 @@
 {
 	"accel_to_decel_enable": "1",
 	"accel_to_decel_factor": "25%",
-	"bottom_shell_layers": "4",
+	"bottom_shell_layers": "0",
 	"bottom_shell_thickness": "0.8",
 	"bottom_solid_infill_flow_ratio": "1",
 	"bridge_acceleration": "5000",
@@ -93,6 +93,7 @@
 	"support_top_z_distance": "0.151",
 	"support_type": "normal(auto)",
 	"thick_bridges": "1",
+	"top_shell_layers": "0",
 	"top_surface_acceleration": "5000",
 	"top_surface_jerk": "2.5",
 	"top_surface_line_width": "0.38",
