@@ -189,7 +189,7 @@
 		"0"
 	],
 	"preferred_orientation": "0",
-	"print_host": "192.168.0.68",
+	"print_host": "192.168.0.50",
 	"print_host_webui": "",
 	"printable_area": [
 		"0x0",
