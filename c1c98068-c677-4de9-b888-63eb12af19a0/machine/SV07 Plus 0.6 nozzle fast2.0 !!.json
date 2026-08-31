@@ -1,0 +1,13 @@
+{
+	"from": "User",
+	"inherits": "SV07 Plus 0.6 nozzle fast2 !!",
+	"name": "SV07 Plus 0.6 nozzle fast2.0 !!",
+	"printer_extruder_id": [
+		"1"
+	],
+	"printer_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"printer_settings_id": "SV07 Plus 0.6 nozzle fast2.0 !!",
+	"version": "2.2.0.0"
+}
