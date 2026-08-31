@@ -1,42 +1,42 @@
 {
-	"default_filament_colour": [
-		"#9A9996"
-	],
-	"fan_max_speed": [
-		"100"
-	],
-	"filament_cost": [
-		"22.59"
-	],
-	"filament_extruder_variant": [
-		"Direct Drive Standard"
-	],
-	"filament_max_volumetric_speed": [
-		"13"
-	],
-	"filament_notes": [
-		"11.5 works well\n"
-	],
-	"filament_settings_id": [
-		"PolyLite PETG @System - Silver"
-	],
-	"from": "Bundle",
-	"inherits": "PolyLite PETG @System",
-	"name": "PolyLite PETG @System - Silver",
-	"nozzle_temperature": [
-		"260"
-	],
-	"nozzle_temperature_initial_layer": [
-		"260"
-	],
-	"overhang_fan_speed": [
-		"100"
-	],
-	"overhang_fan_threshold": [
-		"50%"
-	],
-	"support_material_interface_fan_speed": [
-		"100"
-	],
-	"version": "2.3.1.10"
+    "default_filament_colour": [
+        "#9A9996"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "filament_cost": [
+        "22.59"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_max_volumetric_speed": [
+        "13"
+    ],
+    "filament_notes": [
+        "11.5 works well\n"
+    ],
+    "filament_settings_id": [
+        "PolyLite PETG @System - Silver"
+    ],
+    "from": "Bundle",
+    "inherits": "",
+    "name": "PolyLite PETG @System - Silver",
+    "nozzle_temperature": [
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "support_material_interface_fan_speed": [
+        "100"
+    ],
+    "version": "2.3.1.10"
 }

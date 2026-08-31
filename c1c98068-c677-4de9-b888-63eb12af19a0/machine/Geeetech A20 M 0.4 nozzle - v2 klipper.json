@@ -1,85 +1,85 @@
 {
-	"change_filament_gcode": "T[next_extruder]\n",
-	"cooling_tube_retraction": "0",
-	"deretraction_speed": [
-		"20"
-	],
-	"emit_machine_limits_to_gcode": "0",
-	"enable_filament_ramming": "0",
-	"extra_loading_move": "0",
-	"from": "User",
-	"gcode_flavor": "klipper",
-	"inherits": "Geeetech A20 M 0.4 nozzle",
-	"input_shaping_type": "ZV",
-	"layer_change_gcode": ";------------------------------------\n;layer No: [layer_num] ———>Print Height: [layer_z] mm\n;------------------------------------\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
-	"machine_end_gcode": "END_PRINT MAX_LAYER_Z=[max_layer_z] PRINTABLE_HEIGHT=[max_print_height] Z_OFFSET=[z_offset] BED_MAX_Y=[print_bed_max]\n",
-	"machine_max_acceleration_e": [
-		"3000",
-		"5000"
-	],
-	"machine_max_acceleration_extruding": [
-		"2000",
-		"1000"
-	],
-	"machine_max_acceleration_retracting": [
-		"2000",
-		"1000"
-	],
-	"machine_max_acceleration_travel": [
-		"2000",
-		"500"
-	],
-	"machine_max_acceleration_x": [
-		"1200",
-		"500"
-	],
-	"machine_max_acceleration_y": [
-		"1000",
-		"500"
-	],
-	"machine_max_jerk_x": [
-		"5",
-		"8"
-	],
-	"machine_max_jerk_y": [
-		"5",
-		"8"
-	],
-	"machine_max_jerk_z": [
-		"0.8",
-		"0.4"
-	],
-	"machine_pause_gcode": "PAUSE;\n",
-	"machine_start_gcode": "T[initial_extruder]\nSTART_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature] INITIAL_TOOL=[initial_extruder]\n",
-	"name": "Geeetech A20 M 0.4 nozzle - v2 klipper",
-	"parking_pos_retraction": "0",
-	"print_host": "192.168.0.50",
-	"printer_agent": "moonraker",
-	"printer_extruder_id": [
-		"1"
-	],
-	"printer_extruder_variant": [
-		"Direct Drive Standard"
-	],
-	"printer_settings_id": "Geeetech A20 M 0.4 nozzle - v2 klipper",
-	"resonance_avoidance": "1",
-	"retract_before_wipe": [
-		"100%"
-	],
-	"retract_lift_enforce": [
-		"Top and Bottom"
-	],
-	"retract_restart_extra": [
-		"0"
-	],
-	"retract_when_changing_layer": [
-		"0"
-	],
-	"retraction_length": [
-		"1.2"
-	],
-	"version": "2.4.0.1",
-	"z_hop": [
-		"0.15"
-	]
+    "change_filament_gcode": "T[next_extruder]\n",
+    "cooling_tube_retraction": "0",
+    "deretraction_speed": [
+        "20"
+    ],
+    "emit_machine_limits_to_gcode": "0",
+    "enable_filament_ramming": "0",
+    "extra_loading_move": "0",
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "",
+    "input_shaping_type": "ZV",
+    "layer_change_gcode": ";------------------------------------\n;layer No: [layer_num] \u2014\u2014\u2014>Print Height: [layer_z] mm\n;------------------------------------\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+    "machine_end_gcode": "END_PRINT MAX_LAYER_Z=[max_layer_z] PRINTABLE_HEIGHT=[max_print_height] Z_OFFSET=[z_offset] BED_MAX_Y=[print_bed_max]\n",
+    "machine_max_acceleration_e": [
+        "3000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "2000",
+        "1000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "2000",
+        "1000"
+    ],
+    "machine_max_acceleration_travel": [
+        "2000",
+        "500"
+    ],
+    "machine_max_acceleration_x": [
+        "1200",
+        "500"
+    ],
+    "machine_max_acceleration_y": [
+        "1000",
+        "500"
+    ],
+    "machine_max_jerk_x": [
+        "5",
+        "8"
+    ],
+    "machine_max_jerk_y": [
+        "5",
+        "8"
+    ],
+    "machine_max_jerk_z": [
+        "0.8",
+        "0.4"
+    ],
+    "machine_pause_gcode": "PAUSE;\n",
+    "machine_start_gcode": "T[initial_extruder]\nSTART_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature] INITIAL_TOOL=[initial_extruder]\n",
+    "name": "Geeetech A20 M 0.4 nozzle - v2 klipper",
+    "parking_pos_retraction": "0",
+    "print_host": "192.168.0.50",
+    "printer_agent": "moonraker",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "Geeetech A20 M 0.4 nozzle - v2 klipper",
+    "resonance_avoidance": "1",
+    "retract_before_wipe": [
+        "100%"
+    ],
+    "retract_lift_enforce": [
+        "Top and Bottom"
+    ],
+    "retract_restart_extra": [
+        "0"
+    ],
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "1.2"
+    ],
+    "version": "2.4.0.1",
+    "z_hop": [
+        "0.15"
+    ]
 }

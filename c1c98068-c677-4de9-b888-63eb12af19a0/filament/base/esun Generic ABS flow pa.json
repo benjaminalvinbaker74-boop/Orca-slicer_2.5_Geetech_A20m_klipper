@@ -76,10 +76,10 @@
 		"45"
 	],
 	"fan_cooling_layer_time": [
-		"15"
+		"10"
 	],
 	"fan_max_speed": [
-		"45"
+		"40"
 	],
 	"fan_min_speed": [
 		"0"
@@ -316,7 +316,7 @@
 		"220"
 	],
 	"overhang_fan_speed": [
-		"85"
+		"100"
 	],
 	"overhang_fan_threshold": [
 		"25%"

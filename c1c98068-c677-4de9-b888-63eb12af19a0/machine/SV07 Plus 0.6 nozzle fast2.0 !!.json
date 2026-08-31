@@ -158,7 +158,7 @@
 	"manual_filament_change": "0",
 	"master_extruder_id": "1",
 	"max_layer_height": [
-		"0.2"
+		"0.45"
 	],
 	"max_resonance_avoidance_speed": "120",
 	"min_layer_height": [
