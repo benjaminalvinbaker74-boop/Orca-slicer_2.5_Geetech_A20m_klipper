@@ -108,7 +108,7 @@
 		"200"
 	],
 	"machine_max_jerk_e": [
-		"5",
+		"8",
 		"4.5"
 	],
 	"machine_max_jerk_x": [
@@ -116,7 +116,7 @@
 		"8"
 	],
 	"machine_max_jerk_y": [
-		"5",
+		"8",
 		"8"
 	],
 	"machine_max_jerk_z": [
@@ -197,7 +197,7 @@
 		"255x255",
 		"0x255"
 	],
-	"printable_height": "250",
+	"printable_height": "210",
 	"printer_agent": "moonraker",
 	"printer_extruder_id": [
 		"1"
