@@ -127,7 +127,7 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"1"
+		"0.975"
 	],
 	"filament_flush_temp": [
 		"0"
@@ -199,7 +199,7 @@
 		"nil"
 	],
 	"filament_retract_when_changing_layer": [
-		"0"
+		"nil"
 	],
 	"filament_retraction_distances_when_cut": [
 		"nil"
@@ -265,7 +265,7 @@
 		"esun"
 	],
 	"filament_wipe": [
-		"0"
+		"nil"
 	],
 	"filament_wipe_distance": [
 		"nil"
@@ -340,7 +340,7 @@
 		"0"
 	],
 	"slow_down_layer_time": [
-		"1"
+		"5"
 	],
 	"slow_down_min_speed": [
 		"10"
