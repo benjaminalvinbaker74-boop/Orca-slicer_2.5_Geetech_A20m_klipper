@@ -1,0 +1,60 @@
+{
+	"enable_pressure_advance": [
+		"1"
+	],
+	"fan_min_speed": [
+		"30"
+	],
+	"filament_deretraction_speed": [
+		"20"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.95"
+	],
+	"filament_max_volumetric_speed": [
+		"18"
+	],
+	"filament_retract_before_wipe": [
+		"80%"
+	],
+	"filament_retract_restart_extra": [
+		"0"
+	],
+	"filament_retract_when_changing_layer": [
+		"1"
+	],
+	"filament_retraction_length": [
+		"3.2"
+	],
+	"filament_retraction_speed": [
+		"24"
+	],
+	"filament_settings_id": [
+		"SUNLU Silk PLA+ 20-8-26 fixed"
+	],
+	"filament_wipe": [
+		"1"
+	],
+	"filament_wipe_distance": [
+		"0.6"
+	],
+	"from": "User",
+	"inherits": "SUNLU Silk PLA+ @System",
+	"name": "SUNLU Silk PLA+ 20-8-26 fixed",
+	"nozzle_temperature": [
+		"210"
+	],
+	"nozzle_temperature_initial_layer": [
+		"210"
+	],
+	"pressure_advance": [
+		"0.6"
+	],
+	"slow_down_for_layer_cooling": [
+		"0"
+	],
+	"version": "2.4.0.3"
+}

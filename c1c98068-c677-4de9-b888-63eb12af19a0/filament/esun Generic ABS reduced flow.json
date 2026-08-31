@@ -1,0 +1,15 @@
+{
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.965"
+	],
+	"filament_settings_id": [
+		"esun Generic ABS reduced flow"
+	],
+	"from": "User",
+	"inherits": "Generic ABS @System",
+	"name": "esun Generic ABS reduced flow",
+	"version": "2.4.0.3"
+}

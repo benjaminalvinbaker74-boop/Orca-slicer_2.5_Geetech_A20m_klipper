@@ -1,0 +1,42 @@
+{
+	"default_filament_colour": [
+		"#62A0EA"
+	],
+	"filament_cost": [
+		"30.5"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.99"
+	],
+	"filament_max_volumetric_speed": [
+		"16"
+	],
+	"filament_notes": [
+		"; testing 16mm3/s"
+	],
+	"filament_settings_id": [
+		"D3D PLA+ (Generic PLA @System) - Cyanblue"
+	],
+	"filament_vendor": [
+		"D3D"
+	],
+	"from": "User",
+	"hot_plate_temp": [
+		"60"
+	],
+	"hot_plate_temp_initial_layer": [
+		"60"
+	],
+	"inherits": "Generic PLA @System",
+	"name": "D3D PLA+ (Generic PLA @System) - Cyanblue",
+	"nozzle_temperature": [
+		"235"
+	],
+	"nozzle_temperature_initial_layer": [
+		"235"
+	],
+	"version": "2.3.1.10"
+}

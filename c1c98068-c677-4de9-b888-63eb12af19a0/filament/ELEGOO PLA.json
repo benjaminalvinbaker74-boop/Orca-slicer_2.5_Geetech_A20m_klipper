@@ -1,0 +1,21 @@
+{
+	"default_filament_colour": [
+		"#00FF80"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"ELEGOO PLA"
+	],
+	"filament_vendor": [
+		"ELEGOO"
+	],
+	"from": "User",
+	"inherits": "Creality Generic PLA @Ender-3V3-all",
+	"name": "ELEGOO PLA",
+	"slow_down_layer_time": [
+		"1"
+	],
+	"version": "2.3.0.3"
+}

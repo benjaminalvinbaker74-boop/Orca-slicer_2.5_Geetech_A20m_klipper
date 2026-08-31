@@ -1,0 +1,93 @@
+{
+	"default_filament_colour": [
+		"#000000"
+	],
+	"enable_pressure_advance": [
+		"1"
+	],
+	"fan_max_speed": [
+		"60"
+	],
+	"fan_min_speed": [
+		"0"
+	],
+	"filament_density": [
+		"1.04"
+	],
+	"filament_deretraction_speed": [
+		"40"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_max_volumetric_speed": [
+		"18"
+	],
+	"filament_retract_before_wipe": [
+		"0%"
+	],
+	"filament_retract_restart_extra": [
+		"0"
+	],
+	"filament_retract_when_changing_layer": [
+		"1"
+	],
+	"filament_retraction_length": [
+		"0.5"
+	],
+	"filament_retraction_speed": [
+		"45"
+	],
+	"filament_settings_id": [
+		"Esun Abs black first attempt"
+	],
+	"filament_type": [
+		"ABS"
+	],
+	"filament_vendor": [
+		"esun"
+	],
+	"filament_wipe": [
+		"1"
+	],
+	"filament_wipe_distance": [
+		"0.6"
+	],
+	"from": "User",
+	"hot_plate_temp": [
+		"100"
+	],
+	"hot_plate_temp_initial_layer": [
+		"85"
+	],
+	"inherits": "SUNLU Silk PLA+ @System",
+	"name": "Esun Abs black first attempt",
+	"nozzle_temperature": [
+		"255"
+	],
+	"nozzle_temperature_initial_layer": [
+		"255"
+	],
+	"nozzle_temperature_range_high": [
+		"260"
+	],
+	"nozzle_temperature_range_low": [
+		"220"
+	],
+	"overhang_fan_threshold": [
+		"25%"
+	],
+	"pressure_advance": [
+		"0.6"
+	],
+	"reduce_fan_stop_start_freq": [
+		"0"
+	],
+	"slow_down_for_layer_cooling": [
+		"0"
+	],
+	"temperature_vitrification": [
+		"78"
+	],
+	"version": "2.4.0.3"
+}

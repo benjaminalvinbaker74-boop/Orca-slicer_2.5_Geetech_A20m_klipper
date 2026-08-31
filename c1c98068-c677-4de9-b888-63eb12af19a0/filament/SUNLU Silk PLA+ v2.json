@@ -2,9 +2,6 @@
 	"compatible_printers": [
 		"Geeetech A20 M 0.4 nozzle"
 	],
-	"enable_pressure_advance": [
-		"1"
-	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
@@ -13,12 +10,6 @@
 	],
 	"filament_settings_id": [
 		"SUNLU Silk PLA+ v2"
-	],
-	"filament_unloading_speed": [
-		"30"
-	],
-	"filament_unloading_speed_start": [
-		"5"
 	],
 	"filament_wipe": [
 		"1"
@@ -33,7 +24,7 @@
 		"200"
 	],
 	"pressure_advance": [
-		"0.6"
+		"0.5"
 	],
 	"version": "2.4.0.3"
 }
