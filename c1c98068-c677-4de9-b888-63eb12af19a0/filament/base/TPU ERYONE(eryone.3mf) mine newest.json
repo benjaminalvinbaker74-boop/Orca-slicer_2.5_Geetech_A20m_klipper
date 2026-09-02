@@ -211,10 +211,10 @@
 		"nil"
 	],
 	"filament_retraction_speed": [
-		"20"
+		"25"
 	],
 	"filament_settings_id": [
-		"TPU ERYONE(eryone.3mf) mine"
+		"TPU ERYONE(eryone.3mf) mine newest"
 	],
 	"filament_shrink": [
 		"100%"
@@ -268,7 +268,7 @@
 		"nil"
 	],
 	"filament_wipe_distance": [
-		"1.8"
+		"2"
 	],
 	"filament_z_hop": [
 		"0"
@@ -302,7 +302,7 @@
 	"long_retractions_when_ec": [
 		"0"
 	],
-	"name": "TPU ERYONE(eryone.3mf) mine",
+	"name": "TPU ERYONE(eryone.3mf) mine newest",
 	"nozzle_temperature": [
 		"210"
 	],
