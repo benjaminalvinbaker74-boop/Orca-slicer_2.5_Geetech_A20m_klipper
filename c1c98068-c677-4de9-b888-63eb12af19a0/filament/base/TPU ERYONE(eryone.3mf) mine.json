@@ -67,7 +67,7 @@
 		"1"
 	],
 	"enable_pressure_advance": [
-		"1"
+		"0"
 	],
 	"eng_plate_temp": [
 		"30"
@@ -127,7 +127,7 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"1.01"
+		"1.25"
 	],
 	"filament_flush_temp": [
 		"0"
@@ -268,7 +268,7 @@
 		"nil"
 	],
 	"filament_wipe_distance": [
-		"3"
+		"1.8"
 	],
 	"filament_z_hop": [
 		"0"
@@ -304,10 +304,10 @@
 	],
 	"name": "TPU ERYONE(eryone.3mf) mine",
 	"nozzle_temperature": [
-		"195"
+		"210"
 	],
 	"nozzle_temperature_initial_layer": [
-		"200"
+		"205"
 	],
 	"nozzle_temperature_range_high": [
 		"250"
@@ -325,10 +325,10 @@
 		"0.4157"
 	],
 	"pressure_advance": [
-		"0.26"
+		"0.026"
 	],
 	"reduce_fan_stop_start_freq": [
-		"0"
+		"1"
 	],
 	"required_nozzle_HRC": [
 		"3"
