@@ -76,7 +76,7 @@
 		"30"
 	],
 	"fan_cooling_layer_time": [
-		"60"
+		"8"
 	],
 	"fan_max_speed": [
 		"100"
@@ -127,7 +127,7 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"1.01"
+		"1.08"
 	],
 	"filament_flush_temp": [
 		"0"
@@ -211,10 +211,10 @@
 		"nil"
 	],
 	"filament_retraction_speed": [
-		"20"
+		"25"
 	],
 	"filament_settings_id": [
-		"TPU ERYONE(eryone.3mf) mine"
+		"TPU ERYONE(eryone.3mf) mine faster"
 	],
 	"filament_shrink": [
 		"100%"
@@ -268,7 +268,7 @@
 		"nil"
 	],
 	"filament_wipe_distance": [
-		"3"
+		"1.2"
 	],
 	"filament_z_hop": [
 		"0"
@@ -302,12 +302,12 @@
 	"long_retractions_when_ec": [
 		"0"
 	],
-	"name": "TPU ERYONE(eryone.3mf) mine",
+	"name": "TPU ERYONE(eryone.3mf) mine faster",
 	"nozzle_temperature": [
-		"195"
+		"200"
 	],
 	"nozzle_temperature_initial_layer": [
-		"200"
+		"205"
 	],
 	"nozzle_temperature_range_high": [
 		"250"
@@ -325,10 +325,10 @@
 		"0.4157"
 	],
 	"pressure_advance": [
-		"0.26"
+		"0.036"
 	],
 	"reduce_fan_stop_start_freq": [
-		"0"
+		"1"
 	],
 	"required_nozzle_HRC": [
 		"3"
@@ -340,7 +340,7 @@
 		"1"
 	],
 	"slow_down_layer_time": [
-		"8"
+		"4"
 	],
 	"slow_down_min_speed": [
 		"10"
