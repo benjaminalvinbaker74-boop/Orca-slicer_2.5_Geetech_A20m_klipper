@@ -165,7 +165,7 @@
 		"0.08"
 	],
 	"min_resonance_avoidance_speed": "70",
-	"name": "SV07 Plus 0.4 nozzle fast2.0 !!",
+	"name": "SV07 Plus 0.4 nozzle fast2.0 !! firmware retraction",
 	"nozzle_diameter": [
 		"0.4"
 	],
@@ -207,7 +207,7 @@
 	],
 	"printer_model": "Sovol SV07 Plus",
 	"printer_notes": "; For sequential printing,\n; set Extruder clearance\n; Radius: ??? (actual ???)\n; Height: ??? (actual ???)\n\nDo not make changes to the following keywords:\nPRINTER_MODEL_SV07Plus",
-	"printer_settings_id": "SV07 Plus 0.4 nozzle fast2.0 !!",
+	"printer_settings_id": "SV07 Plus 0.4 nozzle fast2.0 !! firmware retraction",
 	"printer_structure": "i3",
 	"printer_technology": "FFF",
 	"printer_variant": "0.4",
@@ -222,7 +222,7 @@
 	"purge_in_prime_tower": "1",
 	"resonance_avoidance": "0",
 	"retract_before_wipe": [
-		"33%"
+		"100%"
 	],
 	"retract_length_toolchange": [
 		"10"
@@ -276,7 +276,7 @@
 	],
 	"upward_compatible_machine": [],
 	"use_3mf": "0",
-	"use_firmware_retraction": "0",
+	"use_firmware_retraction": "1",
 	"use_relative_e_distances": "1",
 	"version": "2.2.0.0",
 	"wipe": [
