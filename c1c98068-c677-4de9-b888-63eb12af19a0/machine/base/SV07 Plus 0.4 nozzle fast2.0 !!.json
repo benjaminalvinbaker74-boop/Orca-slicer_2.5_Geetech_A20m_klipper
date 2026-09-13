@@ -96,7 +96,7 @@
 		"1250"
 	],
 	"machine_max_acceleration_x": [
-		"10000",
+		"8000",
 		"960"
 	],
 	"machine_max_acceleration_y": [
@@ -132,7 +132,7 @@
 		"120"
 	],
 	"machine_max_speed_x": [
-		"350",
+		"300",
 		"100"
 	],
 	"machine_max_speed_y": [
@@ -234,7 +234,7 @@
 		"0"
 	],
 	"retract_lift_enforce": [
-		"Top and Bottom"
+		"All Surfaces"
 	],
 	"retract_restart_extra": [
 		"0"
