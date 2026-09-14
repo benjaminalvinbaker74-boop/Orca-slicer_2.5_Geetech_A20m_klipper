@@ -73,7 +73,7 @@
 	"input_shaping_freq_x": "0",
 	"input_shaping_freq_y": "0",
 	"input_shaping_type": "Default",
-	"layer_change_gcode": ";------------------------------------\n;layer No: [layer_num] ———>Print Height: [layer_z] mm\n;------------------------------------\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+	"layer_change_gcode": ";------------------------------------\n;layer No: [layer_num] ———>Print Height: [layer_z] mm\n;------------------------------------\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}\nHEIGHT_ACCEL_UPDATE",
 	"long_retractions_when_cut": [
 		"0"
 	],
