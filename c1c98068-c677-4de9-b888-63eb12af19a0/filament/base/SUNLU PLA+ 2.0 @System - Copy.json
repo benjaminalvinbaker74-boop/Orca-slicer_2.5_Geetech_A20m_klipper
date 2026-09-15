@@ -41,9 +41,7 @@
 	"close_fan_the_first_x_layers": [
 		"1"
 	],
-	"compatible_printers": [
-		"System - Copy"
-	],
+	"compatible_printers": [],
 	"compatible_printers_condition": "",
 	"compatible_prints": [],
 	"compatible_prints_condition": "",
@@ -187,7 +185,7 @@
 		"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
 	],
 	"filament_retract_before_wipe": [
-		"nil"
+		"66%"
 	],
 	"filament_retract_lift_above": [
 		"nil"
@@ -202,13 +200,13 @@
 		"nil"
 	],
 	"filament_retract_when_changing_layer": [
-		"1"
+		"nil"
 	],
 	"filament_retraction_distances_when_cut": [
 		"18"
 	],
 	"filament_retraction_length": [
-		"0.6"
+		"0.8"
 	],
 	"filament_retraction_minimum_travel": [
 		"nil"
@@ -268,16 +266,16 @@
 		"SUNLU"
 	],
 	"filament_wipe": [
-		"nil"
+		"1"
 	],
 	"filament_wipe_distance": [
-		"nil"
+		"0.6"
 	],
 	"filament_z_hop": [
 		"0.24"
 	],
 	"filament_z_hop_types": [
-		"Auto Lift"
+		"Spiral Lift"
 	],
 	"first_x_layer_fan_speed": [
 		"0"
@@ -307,7 +305,7 @@
 	],
 	"name": "SUNLU PLA+ 2.0 @System - Copy",
 	"nozzle_temperature": [
-		"215"
+		"220"
 	],
 	"nozzle_temperature_initial_layer": [
 		"220"
@@ -328,7 +326,7 @@
 		"0.4157"
 	],
 	"pressure_advance": [
-		"0.022"
+		"0.048"
 	],
 	"reduce_fan_stop_start_freq": [
 		"1"

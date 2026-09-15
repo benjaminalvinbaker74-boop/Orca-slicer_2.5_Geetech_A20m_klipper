@@ -62,5 +62,7 @@
     "textured_plate_temp_initial_layer": [
         "60"
     ],
-    "version": "2.4.0.3"
+    "version": "2.4.0.3",
+    "compatible_printers": [],
+    "compatible_printers_condition": ""
 }
