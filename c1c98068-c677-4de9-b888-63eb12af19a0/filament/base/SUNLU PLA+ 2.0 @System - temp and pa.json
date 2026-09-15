@@ -42,7 +42,7 @@
 		"1"
 	],
 	"compatible_printers": [
-		"SV07 Plus 0.4 nozzle fast2.0 !!"
+		"System - temp and pa"
 	],
 	"compatible_printers_condition": "",
 	"compatible_prints": [],
@@ -129,7 +129,7 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"1"
+		"0.92"
 	],
 	"filament_flush_temp": [
 		"0"
@@ -187,7 +187,7 @@
 		"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
 	],
 	"filament_retract_before_wipe": [
-		"66%"
+		"100%"
 	],
 	"filament_retract_lift_above": [
 		"nil"
@@ -202,13 +202,13 @@
 		"nil"
 	],
 	"filament_retract_when_changing_layer": [
-		"0"
+		"1"
 	],
 	"filament_retraction_distances_when_cut": [
 		"18"
 	],
 	"filament_retraction_length": [
-		"0.8"
+		"0.75"
 	],
 	"filament_retraction_minimum_travel": [
 		"nil"
@@ -268,16 +268,16 @@
 		"SUNLU"
 	],
 	"filament_wipe": [
-		"0"
+		"1"
 	],
 	"filament_wipe_distance": [
-		"0.6"
+		"1"
 	],
 	"filament_z_hop": [
 		"0.24"
 	],
 	"filament_z_hop_types": [
-		"Spiral Lift"
+		"Auto Lift"
 	],
 	"first_x_layer_fan_speed": [
 		"0"

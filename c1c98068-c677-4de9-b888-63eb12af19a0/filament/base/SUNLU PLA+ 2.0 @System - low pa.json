@@ -194,7 +194,7 @@
 		"nil"
 	],
 	"filament_retract_lift_enforce": [
-		"All Surfaces"
+		"Top Only"
 	],
 	"filament_retract_restart_extra": [
 		"nil"
