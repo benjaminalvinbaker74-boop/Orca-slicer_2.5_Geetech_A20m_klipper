@@ -14,7 +14,7 @@
 	"before_layer_change_gcode": "; TIMELAPSE_TAKE_FRAME\nM118 Printing Layer [layer_num] of [total_layer_count]\nG92 E0\n",
 	"best_object_pos": "0.5,0.5",
 	"change_extrusion_role_gcode": "",
-	"change_filament_gcode": "",
+	"change_filament_gcode": "PAUSE",
 	"cooling_tube_length": "5",
 	"cooling_tube_retraction": "91.5",
 	"default_bed_type": "",
@@ -249,7 +249,7 @@
 		"18"
 	],
 	"retraction_length": [
-		"0.5"
+		"0.75"
 	],
 	"retraction_minimum_travel": [
 		"2"
@@ -259,7 +259,7 @@
 	],
 	"scan_first_layer": "0",
 	"silent_mode": "0",
-	"single_extruder_multi_material": "0",
+	"single_extruder_multi_material": "1",
 	"support_air_filtration": "1",
 	"support_chamber_temp_control": "1",
 	"support_multi_bed_types": "0",

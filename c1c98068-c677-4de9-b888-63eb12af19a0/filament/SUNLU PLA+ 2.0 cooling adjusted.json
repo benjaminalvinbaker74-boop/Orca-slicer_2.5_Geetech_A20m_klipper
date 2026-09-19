@@ -60,7 +60,7 @@
 		"1.2"
 	],
 	"filament_z_hop": [
-		"0.24"
+		"0.6"
 	],
 	"filament_z_hop_types": [
 		"Auto Lift"

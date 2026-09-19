@@ -271,7 +271,7 @@
 		"2"
 	],
 	"filament_z_hop": [
-		"0"
+		"0.6"
 	],
 	"filament_z_hop_types": [
 		"nil"
