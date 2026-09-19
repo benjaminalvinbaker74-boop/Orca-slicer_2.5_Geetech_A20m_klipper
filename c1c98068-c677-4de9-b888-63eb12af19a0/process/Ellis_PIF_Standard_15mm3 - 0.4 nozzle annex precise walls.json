@@ -1,0 +1,35 @@
+{
+	"bottom_shell_layers": "5",
+	"elefant_foot_compensation": "0.15",
+	"from": "User",
+	"inherits": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex",
+	"initial_layer_infill_speed": "45",
+	"initial_layer_line_width": "0.52",
+	"initial_layer_speed": "35",
+	"internal_solid_infill_pattern": "monotonicline",
+	"name": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex precise walls",
+	"only_one_wall_top": "1",
+	"precise_outer_wall": "1",
+	"print_extruder_id": [
+		"1"
+	],
+	"print_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"print_settings_id": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex precise walls",
+	"resolution": "0.01",
+	"scarf_angle_threshold": "115",
+	"seam_gap": "10%",
+	"seam_slope_conditional": "1",
+	"seam_slope_entire_loop": "0",
+	"seam_slope_steps": "20",
+	"slice_closing_radius": "0.02",
+	"solid_infill_rotate_template": "+45",
+	"sparse_infill_density": "40%",
+	"staggered_inner_seams": "0",
+	"top_shell_layers": "5",
+	"travel_speed": "180",
+	"version": "2.2.0.0",
+	"wall_loops": "5",
+	"wall_sequence": "inner wall/outer wall"
+}
