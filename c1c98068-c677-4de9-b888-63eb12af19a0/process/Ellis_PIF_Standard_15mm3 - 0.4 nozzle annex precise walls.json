@@ -1,13 +1,20 @@
 {
 	"bottom_shell_layers": "5",
+	"bottom_surface_pattern": "archimedeanchords",
 	"elefant_foot_compensation": "0.15",
 	"from": "User",
+	"gap_fill_target": "topbottom",
 	"inherits": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex",
-	"initial_layer_infill_speed": "45",
+	"initial_layer_infill_speed": [
+		"45"
+	],
 	"initial_layer_line_width": "0.52",
-	"initial_layer_speed": "35",
+	"initial_layer_speed": [
+		"35"
+	],
 	"internal_solid_infill_pattern": "monotonicline",
 	"name": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex precise walls",
+	"only_one_wall_first_layer": "1",
 	"only_one_wall_top": "1",
 	"precise_outer_wall": "1",
 	"print_extruder_id": [
@@ -29,8 +36,9 @@
 	"sparse_infill_density": "40%",
 	"staggered_inner_seams": "0",
 	"top_shell_layers": "5",
-	"travel_speed": "180",
+	"travel_speed": [
+		"180"
+	],
 	"version": "2.2.0.0",
-	"wall_loops": "5",
-	"wall_sequence": "inner wall/outer wall"
+	"wall_sequence": "inner-outer-inner wall"
 }

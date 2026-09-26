@@ -96,6 +96,9 @@
 	"filament_change_length": [
 		"10"
 	],
+	"filament_change_length_nc": [
+		"10"
+	],
 	"filament_cooling_before_tower": [
 		"10"
 	],
@@ -117,11 +120,38 @@
 	"filament_deretraction_speed": [
 		"20"
 	],
+	"filament_dev_ams_drying_ams_limitations": [
+		""
+	],
+	"filament_dev_ams_drying_heat_distortion_temperature": [
+		"0"
+	],
+	"filament_dev_ams_drying_temperature": [
+		"0"
+	],
+	"filament_dev_ams_drying_time": [
+		"0"
+	],
+	"filament_dev_chamber_drying_bed_temperature": [
+		"0"
+	],
+	"filament_dev_chamber_drying_time": [
+		"0"
+	],
+	"filament_dev_drying_cooling_temperature": [
+		"0"
+	],
+	"filament_dev_drying_softening_temperature": [
+		"0"
+	],
 	"filament_diameter": [
 		"1.75"
 	],
 	"filament_end_gcode": [
 		"; filament end gcode \nM106 P3 S0\n"
+	],
+	"filament_extruder_compatibility": [
+		"0"
 	],
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
@@ -130,6 +160,9 @@
 		"1.19"
 	],
 	"filament_flush_temp": [
+		"0"
+	],
+	"filament_flush_temp_fast": [
 		"0"
 	],
 	"filament_flush_volumetric_speed": [
@@ -177,14 +210,51 @@
 	"filament_notes": [
 		"235/240C: 7mm3/s, K 0.125 Aux 70\n220/220C: 7.2 mm3/s K 0.26 Aux 20. Maybe max flowrate 6"
 	],
+	"filament_plugin_config_overrides": "",
+	"filament_pre_cooling_temperature": [
+		"0"
+	],
+	"filament_pre_cooling_temperature_nc": [
+		"0"
+	],
+	"filament_preheat_temperature_delta": [
+		"0"
+	],
+	"filament_prime_volume": [
+		"45"
+	],
+	"filament_prime_volume_nc": [
+		"60"
+	],
 	"filament_printable": [
 		"3"
 	],
 	"filament_ramming_parameters": [
 		"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
 	],
+	"filament_ramming_travel_time": [
+		"0"
+	],
+	"filament_ramming_travel_time_nc": [
+		"0"
+	],
+	"filament_ramming_volumetric_speed": [
+		"-1"
+	],
+	"filament_ramming_volumetric_speed_nc": [
+		"-1"
+	],
+	"filament_retract_after_wipe": [
+		"nil"
+	],
 	"filament_retract_before_wipe": [
 		"33%"
+	],
+	"filament_retract_length_nc": [
+		"nil"
+	],
+	"filament_retract_length_toolchange": [
+		"nil"
 	],
 	"filament_retract_lift_above": [
 		"nil"
@@ -193,9 +263,12 @@
 		"nil"
 	],
 	"filament_retract_lift_enforce": [
-		"nil"
+		"All Surfaces"
 	],
 	"filament_retract_restart_extra": [
+		"nil"
+	],
+	"filament_retract_restart_extra_toolchange": [
 		"nil"
 	],
 	"filament_retract_when_changing_layer": [
@@ -274,7 +347,7 @@
 		"0.6"
 	],
 	"filament_z_hop_types": [
-		"nil"
+		"Spiral Lift"
 	],
 	"first_x_layer_fan_speed": [
 		"0"
@@ -293,6 +366,9 @@
 		"0"
 	],
 	"inherits": "",
+	"initial_layer_fan_speed": [
+		"-1"
+	],
 	"internal_bridge_fan_speed": [
 		"-1"
 	],
