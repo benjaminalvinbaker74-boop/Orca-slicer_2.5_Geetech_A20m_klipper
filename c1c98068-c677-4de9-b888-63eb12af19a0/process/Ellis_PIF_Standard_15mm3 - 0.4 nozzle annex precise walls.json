@@ -16,6 +16,7 @@
 	"print_extruder_variant": [
 		"Direct Drive Standard"
 	],
+	"print_sequence": "by layer",
 	"print_settings_id": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex precise walls",
 	"resolution": "0.01",
 	"scarf_angle_threshold": "115",

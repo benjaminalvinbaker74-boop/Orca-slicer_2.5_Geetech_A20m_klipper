@@ -14,7 +14,7 @@
 	"before_layer_change_gcode": "; TIMELAPSE_TAKE_FRAME\nM118 Printing Layer [layer_num] of [total_layer_count]\nG92 E0\n",
 	"best_object_pos": "0.5,0.5",
 	"change_extrusion_role_gcode": "",
-	"change_filament_gcode": "PAUSE",
+	"change_filament_gcode": "M600; ",
 	"cooling_tube_length": "5",
 	"cooling_tube_retraction": "91.5",
 	"default_bed_type": "",
@@ -80,15 +80,15 @@
 	"machine_end_gcode": "END_PRINT MAX_LAYER_Z=[max_layer_z] PRINTABLE_HEIGHT=[max_print_height] Z_OFFSET=[z_offset] BED_MAX_Y=[print_bed_max]",
 	"machine_load_filament_time": "0",
 	"machine_max_acceleration_e": [
-		"10000",
+		"8000",
 		"5000"
 	],
 	"machine_max_acceleration_extruding": [
-		"10000",
+		"8000",
 		"1250"
 	],
 	"machine_max_acceleration_retracting": [
-		"10000",
+		"8000",
 		"1250"
 	],
 	"machine_max_acceleration_travel": [
@@ -132,11 +132,11 @@
 		"120"
 	],
 	"machine_max_speed_x": [
-		"300",
+		"250",
 		"100"
 	],
 	"machine_max_speed_y": [
-		"300",
+		"250",
 		"100"
 	],
 	"machine_max_speed_z": [
@@ -155,7 +155,7 @@
 	"machine_start_gcode": "M104 S0 ; Stops PS/SS from sending temp waits separately\nM140 S0\nM117\n\nSTART_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature] INITIAL_TOOL=[initial_extruder]\n;; Guide: https://ellis3dp.com/Print-Tuning-Guide/articles/passing_slicer_variables.html#slicer-start-g-code",
 	"machine_tool_change_time": "0",
 	"machine_unload_filament_time": "0",
-	"manual_filament_change": "0",
+	"manual_filament_change": "1",
 	"master_extruder_id": "1",
 	"max_layer_height": [
 		"0.3"
@@ -249,7 +249,7 @@
 		"18"
 	],
 	"retraction_length": [
-		"0.75"
+		"0.5"
 	],
 	"retraction_minimum_travel": [
 		"2"
