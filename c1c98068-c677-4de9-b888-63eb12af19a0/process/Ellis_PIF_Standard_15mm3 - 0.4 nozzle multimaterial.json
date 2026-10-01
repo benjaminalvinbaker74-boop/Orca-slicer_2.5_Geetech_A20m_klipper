@@ -1,6 +1,5 @@
 {
 	"bottom_shell_layers": "5",
-	"bottom_surface_pattern": "archimedeanchords",
 	"detect_narrow_internal_solid_infill": "0",
 	"elefant_foot_compensation": "0.15",
 	"enable_prime_tower": "1",
