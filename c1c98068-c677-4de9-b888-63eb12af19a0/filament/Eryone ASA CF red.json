@@ -8,6 +8,9 @@
 	"default_filament_colour": [
 		"#A51D2D"
 	],
+	"enable_pressure_advance": [
+		"1"
+	],
 	"fan_max_speed": [
 		"20"
 	],
@@ -26,6 +29,9 @@
 	"filament_max_volumetric_speed": [
 		"8"
 	],
+	"filament_retract_when_changing_layer": [
+		"0"
+	],
 	"filament_retraction_length": [
 		"0.75"
 	],
@@ -37,6 +43,9 @@
 	],
 	"filament_vendor": [
 		"eryone"
+	],
+	"filament_wipe": [
+		"0"
 	],
 	"from": "User",
 	"hot_plate_temp_initial_layer": [
@@ -55,6 +64,9 @@
 	],
 	"nozzle_temperature_range_low": [
 		"230"
+	],
+	"pressure_advance": [
+		"0.052"
 	],
 	"reduce_fan_stop_start_freq": [
 		"0"
