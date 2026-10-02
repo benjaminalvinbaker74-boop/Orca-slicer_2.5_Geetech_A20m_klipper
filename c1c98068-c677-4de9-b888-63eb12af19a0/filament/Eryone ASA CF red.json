@@ -27,7 +27,7 @@
 		"0.985"
 	],
 	"filament_max_volumetric_speed": [
-		"8"
+		"10"
 	],
 	"filament_retract_when_changing_layer": [
 		"0"
