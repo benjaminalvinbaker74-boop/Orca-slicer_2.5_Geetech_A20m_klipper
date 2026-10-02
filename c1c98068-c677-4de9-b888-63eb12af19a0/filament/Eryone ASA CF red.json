@@ -23,6 +23,9 @@
 	"filament_extruder_variant": [
 		"Direct Drive Standard"
 	],
+	"filament_flow_ratio": [
+		"0.981"
+	],
 	"filament_max_volumetric_speed": [
 		"8"
 	],
@@ -45,13 +48,16 @@
 		"0"
 	],
 	"from": "User",
+	"hot_plate_temp": [
+		"105"
+	],
 	"hot_plate_temp_initial_layer": [
-		"85"
+		"95"
 	],
 	"inherits": "Generic ASA @System",
 	"name": "Eryone ASA CF red",
 	"nozzle_temperature": [
-		"265"
+		"266"
 	],
 	"nozzle_temperature_initial_layer": [
 		"270"
