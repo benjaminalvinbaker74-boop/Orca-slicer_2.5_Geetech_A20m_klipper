@@ -24,7 +24,7 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"0.981"
+		"0.985"
 	],
 	"filament_max_volumetric_speed": [
 		"8"
@@ -33,7 +33,7 @@
 		"0"
 	],
 	"filament_retraction_length": [
-		"0.75"
+		"1.15"
 	],
 	"filament_retraction_speed": [
 		"40"
