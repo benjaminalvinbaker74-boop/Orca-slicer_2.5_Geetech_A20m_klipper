@@ -30,7 +30,7 @@
 		"0.92"
 	],
 	"filament_ironing_flow": [
-		"18%"
+		"18.5%"
 	],
 	"filament_ironing_inset": [
 		"0.2"
@@ -66,7 +66,7 @@
 		"40"
 	],
 	"filament_settings_id": [
-		"SUNLU PLA+ 2.0 cooling adjusted"
+		"SUNLU PLA+ 2.0 pa adjusted seam blob"
 	],
 	"filament_wipe": [
 		"1"
@@ -88,12 +88,12 @@
 		"60"
 	],
 	"inherits": "SUNLU PLA+ 2.0 @System",
-	"name": "SUNLU PLA+ 2.0 cooling adjusted",
+	"name": "SUNLU PLA+ 2.0 pa adjusted seam blob",
 	"nozzle_temperature": [
 		"215"
 	],
 	"pressure_advance": [
-		"0.022"
+		"0.026"
 	],
 	"slow_down_layer_time": [
 		"5"
