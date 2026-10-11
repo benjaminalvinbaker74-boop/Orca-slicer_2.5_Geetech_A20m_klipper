@@ -1,5 +1,6 @@
 {
 	"bottom_surface_pattern": "monotonic",
+	"brim_type": "outer_only",
 	"brim_width": "5",
 	"combine_brims": "1",
 	"elefant_foot_compensation": "0.25",
@@ -8,11 +9,11 @@
 	"from": "User",
 	"inherits": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle annex",
 	"initial_layer_infill_speed": "45",
-	"initial_layer_line_width": "0.56",
+	"initial_layer_line_width": "0.52",
 	"initial_layer_print_height": "0.25",
+	"initial_layer_speed": "35",
 	"interlocking_beam": "1",
 	"internal_solid_infill_pattern": "monotonicline",
-	"line_width": "0.45",
 	"name": "pla 2.0 Ellis_PIF_Standard_15mm3 - 0.4 nozzle multimaterial",
 	"only_one_wall_top": "1",
 	"precise_outer_wall": "1",
@@ -44,6 +45,7 @@
 	"top_shell_layers": "4",
 	"travel_speed": "180",
 	"version": "2.2.0.0",
+	"wall_loops": "4",
 	"wall_sequence": "inner-outer-inner wall",
 	"zaa_dont_alternate_fill_direction": "1",
 	"zaa_enabled": "1"

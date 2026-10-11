@@ -243,7 +243,7 @@
 		"0"
 	],
 	"retract_when_changing_layer": [
-		"0"
+		"1"
 	],
 	"retraction_distances_when_cut": [
 		"18"
@@ -280,7 +280,7 @@
 	"use_relative_e_distances": "1",
 	"version": "2.2.0.0",
 	"wipe": [
-		"0"
+		"1"
 	],
 	"wipe_distance": [
 		"0.6"

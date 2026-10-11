@@ -24,7 +24,7 @@
 		"Direct Drive Standard"
 	],
 	"filament_flow_ratio": [
-		"0.985"
+		"0.975"
 	],
 	"filament_max_volumetric_speed": [
 		"10"
@@ -56,11 +56,8 @@
 	],
 	"inherits": "Generic ASA @System",
 	"name": "Eryone ASA CF red",
-	"nozzle_temperature": [
-		"266"
-	],
 	"nozzle_temperature_initial_layer": [
-		"270"
+		"265"
 	],
 	"nozzle_temperature_range_high": [
 		"290"
